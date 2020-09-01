@@ -1,26 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import StopWatch from './components/StopWatch';
+import IncDecOperation from './components/IncDecOperation';
+import AddRemoveElementFromStack from './components/AddRemoveElementFromStack';
+import ProgressBar from './components/ProgressBar';
+const App =()=>{
+    return(
+        <div> <h1 style={{textAlign:"center"}}>Apps</h1>
+        <div style={{textAlign:"center"}}><StopWatch/></div>
+        <div><IncDecOperation /></div>
+            <div><AddRemoveElementFromStack /></div>
+            <div><ProgressBar/></div>
+        </div>
+    )
 }
-
-export default App;
+export default App ;
