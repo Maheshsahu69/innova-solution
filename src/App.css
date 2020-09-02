@@ -1,0 +1,24 @@
+/* The grid: Four equal columns that floats next to each other */
+.container{
+  width: 100%;
+  height: auto;
+ 
+}
+.box{
+  width: 20%;
+  height: 300px;
+  margin: 20px;
+  background:LightGray;
+  float: left;
+  padding: 12px;
+  
+}
+.user-details{
+  font-weight: bold;
+  padding-top: 15px;
+}
+
+.user-details:hover{
+  color:blue
+}
+
